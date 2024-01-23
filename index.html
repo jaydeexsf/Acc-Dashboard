@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <section id="nay">
+        <nav id="head">
+           
+            <div class="acc">
+                <div class="h1"><h2>Accounting</h2></div>
+                <div class="p">
+                    <p>Overview</p>
+                    <p>Transactions</p>
+                    <p>Reports</p>
+                    <p>Hire BookKeeper</p>
+                </div>    
+            </div> 
+            <div id="nav-s">
+                <div id="form" class="box-shadow">
+                    <form class="far" action="">
+                        
+                         <button class="btn-s" type="submit"><span class="material-symbols-outlined s">search</span></button>
+                         <input value="search" name="seo" id="seo" type="text" placeholder="search" >
+                    </form> 
+                </div> 
+                <div class="rou">      
+                    <div class="round-1 a"><span class="material-symbols-outlined">calendar_month</span></div>
+                    <div class="round-1 b"><span class="material-symbols-outlined">notifications</span></div> 
+                    <div class="round-1 d" c><span class="material-symbols-outlined">sms</span></div>
+                </div>    
+                <img height="36px" width="36px" src="data:image/jpeg;base64,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" alt="">
+                <div class="round"><span class="material-symbols-outlined">expand_more</span></div>
+            </div>   
+        </nav>
+    </section>
+    <hr size="3px" id="nav-line">
+
+    <section class="container">
+
+        <div class="grid-template grid-template-1 cp">
+            <div class="cash-1"> 
+                <h2>Cash flow</h2>
+                <div class="cp-drop">
+                    <div id="mv" class="box-shadow ls"><p>1-6 Months</p><span class="material-symbols-outlined exp">expand_more</span></div>
+                    <div id="mv" class="box-shadow ls"><p>View Report</p><span class="material-symbols-outlined exp">expand_more</span></div>
+                </div>    
+            </div> 
+            <div class="cash-2">
+                <p>Cash coming in and out of your business</p>
+                <div class="indicators-c">
+                    <div class="i-1 i"></div><p id="inf">Inflow</p>
+                    <div class="i-2 i"></div><p>Outflow</p>
+                    <div class="i-3 i"></div><p>Net Charges</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="grid-template grid-template-2 cp">
+            <div class="cash-1"> 
+                <h2>Profit and loss</h2>
+                <div class="cp-drop">
+                    <div id="mv" class="box-shadow ls"><p>View Report</p><span class="material-symbols-outlined exp">expand_more</span></div>
+                    <div id="mv" class="box-shadow ls"><p>1-6 Months</p><span class="material-symbols-outlined exp">expand_more</span></div>
+                </div>    
+            </div> 
+            <div class="cash-2">
+                <p>Income and expenses on (includes unpaid invoice and bills)</p>
+                <div class="indicators-c">
+                    <div class="i-1 i"></div><p>Inflow</p>
+                    <div class="i-3 i"></div><p>Outflow</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="grid-template grid-template-3 ">
+            <div class="cash-flow ">
+                <div class="ion">
+
+                    <div class="inflow-c blg big-box-shadow">
+                        <icon></icon>
+                        <p>Inflow</p>
+                        <h4>R80000</h4>
+                    </div>
+
+                    <div class="outflow-c blg big-box-shadow">
+                        <icon></icon>
+                        <p>Outflow</p>
+                        <h4>R120000</h4>
+                    </div>
+    
+                    <div class="net blg big-box-shadow">
+                        <icon></icon><br>
+                        <p>Net changes</p>
+                        <h4>R2000</h4>
+                    </div>
+
+                </div>
+                <div class="dates">
+                    <div tabindex="0" class="dt">Nov 20</div>
+                    <div tabindex="0" class="dt">Dec 20</div>
+                    <div tabindex="0" class="dt">Jan 21</div>
+                    <div tabindex="0" class="dt">Feb 21</div>
+                    <div tabindex="0" class="dt">March 21</div>
+                    <div tabindex="0" class="dt">April 21</div>
+                    <div tabindex="0" class="dt">April 22</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-template grid-template-4">
+            <div class="profit-loss big-box-shadow">
+                
+            </div>
+        </div>
+
+        <div class="grid-template grid-template-5">
+            <div class="net-income">
+                <h3>Net Income</h3>
+                <div class="f-year">
+                    <div class="rel-i sss">
+                        <p>Final Year</p>
+                        <p class="twen">2020</p>
+                        <p>2021</p>
+                    </div>
+                    <div class="inside">
+                        <div class="rel-i blo">
+                            <p>Income</p>
+                            <p>R44,245.76</p>
+                            <p>R244,672.12</p>
+                        </div>
+                        <div class="rel-i blo">
+                            <p>Income</p>
+                            <p>R67,777.07</p>
+                            <p>R684,672.12</p>
+                        </div>
+                        <div class="rel-i blo">
+                            <p>Income</p>
+                            <p>R90,245,333.76</p>
+                            <p>R944,672.12</p>
+                        </div>
+                           
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-template grid-template-6">
+
+        </div>
+       
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
